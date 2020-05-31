@@ -1,0 +1,83 @@
+<<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Kelly Slab' rel='stylesheet'>
+<style>
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background-color: #A9C4C4;
+}
+h1{
+  font-family:'Oswald';
+  color: #ffffff;
+  background-color: #990003;
+}
+.div1{
+  font-family:'Oswald';
+  color: #ffffff;
+  align-self: center;
+  background-color: #990003;
+  align-items: center;
+  text-align: center;
+}
+.box1,.box2,.box3{
+  font-family:'helvetica';
+  color: #ffffff;
+  align-self: center;
+  background-color: #990003;
+  align-items: center;
+  text-align: center;
+  height: "40px";
+  width: "20px";
+}
+.submit{
+  font-size:"5px"
+  color: #ffffff;
+  font-family: "helvetica";
+}
+.flex-column {
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction:column;
+    align-content: center;
+
+}
+</style>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>textbookify</title>
+<div class="div1">
+<font size="18px">text booked</font>
+<br><font style="italic"size="5px">textbooks on a budget</font></div>
+  </head>
+  <body>
+    <br>
+    <div class="flex-column">
+    <div class="box1"><div class="column-item">
+    <form action="." method = "post">
+    Which book are you listing?
+      <input name= "bookadd" type="text">
+
+    </form></div></div><br>
+    <div class="column-item">
+    <div class="box2">
+      <form action="." method = "post"> What's the price?
+        <input name= "priceadd" type="text">
+
+      </form></div>
+      <div class="column-item">
+      <div class="box3">
+        <form action="." method = "post"> What's your .edu email?
+          <input name= "contactadd" type="text">
+
+        </form></div>
+    </div>
+    <form action="hasbeenlisted.html">
+    <input type="submit" value="Submit">
+    </div>
+  </body>
+
+</html>
